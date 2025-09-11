@@ -1,0 +1,11 @@
+{
+  "name": "locsync",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "Wai Yan Min Lwin",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0"
+}
