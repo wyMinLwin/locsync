@@ -1,7 +1,7 @@
 {
 	"name": "locsync",
-	"version": "0.0.0",
-	"description": "",
+	"version": "1.0.0",
+	"description": "Ultra-light localStorage synchronizer that only writes changed values. ESM/CJS/UMD, zero dependencies.",
 	"type": "module",
 	"main": "dist/index.cjs.js",
 	"module": "dist/index.esm.js",
@@ -12,7 +12,24 @@
 		"lint": "eslint && prettier --check .",
 		"format": "prettier --write ."
 	},
-	"keywords": [],
+	"keywords": [
+		"localStorage",
+		"storage",
+		"sync",
+		"persistence",
+		"frontend",
+		"typescript",
+		"lightweight",
+		"utility"
+	],
+	"repository": {
+        "type": "git",
+        "url": "git+https://github.com/wyMinLwin/locsync.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wyMinLwin/locsync/issues"
+    },
+    "homepage": "https://github.com/wyMinLwin/locsync#readme",
 	"author": "Wai Yan Min Lwin",
 	"license": "MIT",
 	"packageManager": "pnpm@10.11.0",
